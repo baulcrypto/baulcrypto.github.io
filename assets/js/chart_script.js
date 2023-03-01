@@ -1,9 +1,3 @@
-/*!
- * Chart_script.js
- * Author       : Bestwebcreator.
- * Template Name: Cryptocash – ICO, Cryptocurrency Website & ICO Landing Page HTML + Dashboard Template
- * Version      : 1.7
-*/
 var config = {
 type: 'doughnut',
 data: {
