@@ -371,15 +371,6 @@ button:focus {
     right: 0
 }
 
-.icon {
-    right: 0;
-    position: absolute;
-    top: 0
-}
-
-.icon.switch-active {
-    right: 200px
-}
 
 .color-switch button::after {
     color: #fff;
@@ -1172,10 +1163,6 @@ header a:hover {
     transition: .5s ease-in-out
 }
 
-.icon_box {
-    float: left;
-    margin-right: 20px
-}
 
 .box_desc {
     overflow: hidden
@@ -2207,27 +2194,6 @@ header a:hover {
     color: #121833
 }
 
-.notification_inner {
-    padding-left: 10px;
-    padding-right: 10px
-}
-
-.notification_inner h3 {
-    font-size: 18px;
-    margin-bottom: 10px
-}
-
-.notification_inner h3,
-.notification_inner p {
-    color: #fff
-}
-
-.notification_inner img {
-    border-radius: 100%;
-    display: inline-block;
-    height: 20px;
-    width: 20px
-}
 
 .logo {
     max-height: 60px;
@@ -2278,56 +2244,7 @@ header a:hover {
     background-color: hsl(198deg 11% 51%)
 }
 
-.list-icon-box {
-    margin-top: 41px;
-    padding-right: 132px;
-    position: relative;
-}
 
-.list-icon-box::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-    left: 24px;
-    width: 2px;
-    height: 80%;
-}
-
-.icon-box {
-    display: flex;
-    margin-bottom: 18px;
-    position: relative;
-    z-index: 1;
-}
-
-.icon-box .icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 48px;
-    height: 48px;
-    background: linear-gradient(
-        50deg,
-        hsl(230deg 13% 27%) 0%,
-        hsl(7deg 26% 62%) 26%,
-        hsl(5deg 33% 68%) 39%,
-        hsl(340deg 15% 55%) 50%,
-        hsl(306deg 11% 60%) 61%,
-        hsl(203deg 19% 66%) 74%,
-        hsl(176deg 52% 62%) 100%);
-    border-radius: 50%;
-    margin-right: 17px;
-}
-
-.icon-box .content {
-    padding-top: 2px;
-}
-
-.icon-box .content p {
-    line-height: 1.6;
-}
 
 .choose__box {
     margin-top: 35px;
